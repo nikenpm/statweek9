@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Introduction to Business Statistics</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white_2.css" id="theme">
+
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class='footer'>
+			<img src="logoprasmul.jpg" width="250"> 
+		</div>
+		  <div class='header'>
+			<a href="http://google.com">Statistical Data Analysis - Week 1</a>
+		  </div>
+		<div class="slides">
+			<section>
+				<h2>Statistical Data Analysis I</h2>
+				<h3>Week 1: Introduction to Statistics</h3>
+				<br>
+				<br>
+				<h5>Applied STEM</h5>
+				<h5>Prasetiya Mulya Business School</h5>
+				<h4>Dr. Eng. Niken P. Martono</h4>
+				
+			</section>
+			<section>
+				<ul>
+					<li>These lectures are slide-shows with videos alternating with quizzes.</li>
+					<li>Please press the "F" key to enter fullscreen mode.</li>
+					<li>Both videos (from YouTube) and assignments (from Google Forms) may take time to load.</li>
+					<li>After a video is over or submitting assignments, please advance to the next slide.</li>
+					<li>You may like to make videos fullscreen, but please escape to advance to the next slide.</li>
+					<li>Once the course ends the assignments may be restricted.</li>
+				</ul>
+			</section>
+			<section>
+				<h4>Getting Started</h4>
+				<iframe width="853" height="505" src="https://www.youtube.com/embed/sxQaBpKfDRk" frameborder="0"
+					allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</section>
+			<section>
+				<h1> Assignments 1.1</h1>
+			</section>
+			<section
+				data-background-iframe="https://docs.google.com/forms/d/e/1FAIpQLScKPK3AaCpfxpsWW7968GrNLRECgJExeOKydXe5ddx44rICTA/viewform?embedded=true"
+				data-background-interactive>
+			</section>
+			<section>
+				<h4>Defining and Collecting Data</h4>
+			</section>
+			<section
+				data-background-iframe="https://docs.google.com/forms/d/e/1FAIpQLSc65ifQj_YLi8sVA3i0ObW2RwtpwPbNaIdBxonSP9h1RYHIKg/viewform?embedded=true"
+				data-background-interactive></section>
+
+			
+
+		
+			
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+	<script src="plugin/math/math.js"></script>
+	<script>
+		Reveal.initialize({
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: {
+					Macros: {
+						R: "{\\mathbb{R}}",
+						C: "{\\mathbb{C}}",
+						N: "{\\mathbb{N}}",
+						Z: "{\\mathbb{Z}}",
+						Q: "{\\mathbb{Q}}",
+						del: "\\partial"
+					}
+				}
+			},
+			plugins: [RevealMath],
+			autoPlayMedia: true,
+			hash: true,
+			overview: false,
+			transition: 'concave',
+		});
+	</script>
+	<script>
+		for (var v of document.querySelectorAll('.reveal video')) {
+			v.addEventListener('ended', function () { Reveal.next(); });
+		}
+	</script>
+</body>
+
+</html>
